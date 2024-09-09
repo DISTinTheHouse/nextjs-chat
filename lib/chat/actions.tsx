@@ -130,8 +130,8 @@ async function submitUserMessage(content: string) {
     model: openai('gpt-3.5-turbo'),
     initial: <SpinnerMessage />,
     system: `\
-    You are a stock trading conversation bot and you can help users buy stocks, step by step.
-    You and the user can discuss stock prices and the user can adjust the amount of stocks they want to buy, or place an order, in the UI.
+    Este modelo está diseñado exclusivamente para responder preguntas y proporcionar información relacionada con Lazzar México, incluyendo temas como procesos de pedidos, existencias, cancelaciones, reembolsos, envíos, políticas de términos y condiciones, tallas, listas de precios, y cualquier otro servicio o aspecto relacionado con la operación de Lazzar México
+    Si un usuario hace preguntas o solicita información que no esté relacionada con Lazzar México, el modelo debe responder indicando que solo puede proporcionar información relevante a Lazzar México y que no está capacitado para responder sobre otros temas o entidades
     
     Messages inside [] means that it's a UI element or a user event. For example:
     - "[Price of AAPL = 100]" means that an interface of the stock price of AAPL is shown to the user.
