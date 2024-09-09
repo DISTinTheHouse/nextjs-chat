@@ -9,28 +9,14 @@ export function EmptyScreen() {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
         <h1 className="text-lg font-semibold">
-          Welcome to Next.js AI Chatbot!
+          OpenChat Lazzar te da la Bienvenida !
         </h1>
         <p className="leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink>, the{' '}
-          <ExternalLink href="https://sdk.vercel.ai">
-            Vercel AI SDK
-          </ExternalLink>
-          , and{' '}
-          <ExternalLink href="https://vercel.com/storage/kv">
-            Vercel KV
-          </ExternalLink>
-          .
+          Es un chatbot impulsado por IA, diseñado exclusivamente para Lazzar México. Su objetivo es brindar asistencia rápida y eficiente a los usuarios en todos los procesos relacionados con la empresa, como consultas sobre existencias, pedidos, cancelaciones, reembolsos y más.{' '}
+          <ExternalLink href="https://portal-lazzar.com/">Portal-Lazzar</ExternalLink>.
         </p>
         <p className="leading-normal text-muted-foreground">
-          It uses{' '}
-          <ExternalLink href="https://vercel.com/blog/ai-sdk-3-generative-ui">
-            React Server Components
-          </ExternalLink>{' '}
-          to combine text with generative UI as output of the LLM. The UI state
-          is synced through the SDK so the model is aware of your interactions
-          as they happen.
+          los usuarios pueden obtener información en tiempo real, resolver dudas y gestionar sus pedidos de forma fácil y directa. Este asistente está entrenado específicamente para manejar todas las interacciones dentro del entorno de Lazzar México, garantizando respuestas precisas y actualizadas.
         </p>
       </div>
     </div>
