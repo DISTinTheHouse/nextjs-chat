@@ -25,15 +25,15 @@ export function ChatList({ messages, session, isShared }: ChatList) {
             </div>
             <div className="ml-4 flex-1 space-y-2 overflow-hidden px-1">
               <p className="text-muted-foreground leading-normal">
-                Please{' '}
+                Puedes{' '}
                 <Link href="/login" className="underline">
-                  log in
+                  Iniciar Sesión
                 </Link>{' '}
-                or{' '}
+                o{' '}
                 <Link href="/signup" className="underline">
-                  sign up
+                  Registrarte
                 </Link>{' '}
-                to save and revisit your chat history!
+                con tu correo de Lazzar o personal para tener un historial del Chat!
               </p>
             </div>
           </div>
