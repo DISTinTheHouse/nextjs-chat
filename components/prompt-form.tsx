@@ -103,7 +103,7 @@ export function PromptForm({
             <TooltipTrigger asChild>
               <Button type="submit" size="icon" disabled={input === ''}>
                 <IconArrowElbow />
-                <span className="sr-only">Send message</span>
+                <span className="sr-only">Envía tu mensaje a OpenChat Lazzar</span>
               </Button>
             </TooltipTrigger>
             <TooltipContent>Send message</TooltipContent>
