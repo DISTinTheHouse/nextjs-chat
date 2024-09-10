@@ -1,71 +1,53 @@
-<a href="https://chat.vercel.ai/">
-  <img alt="Next.js 14 and App Router-ready AI chatbot." src="https://chat.vercel.ai/opengraph-image.png">
-  <h1 align="center">Next.js AI Chatbot</h1>
-</a>
+# Lazzar CHATBOT AI
 
-<p align="center">
-  An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Vercel KV.
-</p>
+## Descripción General
 
-<p align="center">
-  <a href="#features"><strong>Features</strong></a> ·
-  <a href="#model-providers"><strong>Model Providers</strong></a> ·
-  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
-  <a href="#running-locally"><strong>Running locally</strong></a> ·
-  <a href="#authors"><strong>Authors</strong></a>
-</p>
-<br/>
+**Lazzar CHATBOT AI** es un sistema avanzado de inteligencia artificial desarrollado para asistir a los usuarios en una amplia gama de tareas relacionadas con consultas, gestión de pedidos, soporte al cliente, y más. Este chatbot está diseñado para proporcionar respuestas rápidas, precisas y personalizadas en función de las necesidades del usuario, utilizando técnicas de procesamiento del lenguaje natural (NLP) y machine learning. 
 
-## Features
+El chatbot puede integrarse en múltiples plataformas, como sitios web, aplicaciones móviles y sistemas de mensajería, ofreciendo una experiencia conversacional fluida que simula interacciones humanas. Su flexibilidad le permite adaptarse a diversas industrias, incluidos ecommerce, atención al cliente, tecnología, y retail.
 
-- [Next.js](https://nextjs.org) App Router
-- React Server Components (RSCs), Suspense, and Server Actions
-- [Vercel AI SDK](https://sdk.vercel.ai/docs) for streaming chat UI
-- Support for OpenAI (default), Anthropic, Cohere, Hugging Face, or custom AI chat models and/or LangChain
-- [shadcn/ui](https://ui.shadcn.com)
-  - Styling with [Tailwind CSS](https://tailwindcss.com)
-  - [Radix UI](https://radix-ui.com) for headless component primitives
-  - Icons from [Phosphor Icons](https://phosphoricons.com)
-- Chat History, rate limiting, and session storage with [Vercel KV](https://vercel.com/storage/kv)
-- [NextAuth.js](https://github.com/nextauthjs/next-auth) for authentication
+## Características Principales
 
-## Model Providers
+- **Procesamiento de Lenguaje Natural (NLP):** Lazzar CHATBOT AI entiende y responde a las consultas de los usuarios en lenguaje natural, identificando la intención detrás de las preguntas y proporcionando respuestas relevantes.
+  
+- **Gestión de Pedidos:** El chatbot facilita la gestión de pedidos, permitiendo a los usuarios consultar el estado de sus pedidos, realizar cancelaciones, solicitar reembolsos y obtener detalles sobre políticas de devolución.
 
-This template ships with OpenAI `gpt-3.5-turbo` as the default. However, thanks to the [Vercel AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [Anthropic](https://anthropic.com), [Cohere](https://cohere.com/), [Hugging Face](https://huggingface.co), or using [LangChain](https://js.langchain.com) with just a few lines of code.
+- **Soporte Multicanal:** Integración perfecta con varias plataformas como sitios web, sistemas de chat en línea, mensajería instantánea (WhatsApp, Messenger, etc.), y redes sociales.
 
-## Deploy Your Own
+- **Respuestas Automatizadas:** Configuración personalizada de respuestas automáticas para preguntas frecuentes, como detalles de productos, tiempos de entrega, precios, y disponibilidad de stock.
 
-You can deploy your own version of the Next.js AI Chatbot to Vercel with one click:
+- **Escalabilidad:** Desarrollado con tecnologías de última generación, Lazzar CHATBOT AI es altamente escalable y puede manejar desde pequeñas consultas hasta volúmenes masivos de interacción sin comprometer el rendimiento.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?demo-title=Next.js+Chat&demo-description=A+full-featured%2C+hackable+Next.js+AI+chatbot+built+by+Vercel+Labs&demo-url=https%3A%2F%2Fchat.vercel.ai%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F4aVPvWuTmBvzM5cEdRdqeW%2F4234f9baf160f68ffb385a43c3527645%2FCleanShot_2023-06-16_at_17.09.21.png&project-name=Next.js+Chat&repository-name=nextjs-chat&repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-chatbot&from=templates&skippable-integrations=1&env=OPENAI_API_KEY%2CAUTH_SECRET&envDescription=How+to+get+these+env+vars&envLink=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-chatbot%2Fblob%2Fmain%2F.env.example&teamCreateStatus=hidden&stores=[{"type":"kv"}])
+- **Personalización:** El chatbot aprende de las interacciones pasadas para ofrecer respuestas cada vez más precisas y personalizadas, utilizando machine learning para mejorar con el tiempo.
 
-## Creating a KV Database Instance
+- **Informes y Analíticas:** Recoge y analiza datos de interacciones de usuarios, proporcionando información valiosa sobre el comportamiento del cliente y ayudando a las empresas a optimizar sus procesos de ventas y servicio.
 
-Follow the steps outlined in the [quick start guide](https://vercel.com/docs/storage/vercel-kv/quickstart#create-a-kv-database) provided by Vercel. This guide will assist you in creating and configuring your KV database instance on Vercel, enabling your application to interact with it.
+## Tecnologías Utilizadas
 
-Remember to update your environment variables (`KV_URL`, `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`) in the `.env` file with the appropriate credentials provided during the KV database setup.
+Lazzar CHATBOT AI está construido utilizando una pila tecnológica robusta que garantiza rendimiento, seguridad y capacidad de respuesta en tiempo real. Algunas de las tecnologías clave incluyen:
 
-## Running locally
+- **Python:** Lenguaje de programación principal para la lógica de procesamiento de IA y machine learning.
+- **Django:** Framework backend utilizado para manejar las solicitudes y coordinar las respuestas del chatbot.
+- **OpenAI API:** Utilizado para alimentar el motor de procesamiento del lenguaje natural (NLP), lo que le permite entender y generar respuestas basadas en el contexto de la conversación.
+- **Tailwind:** Framework frontend para diseñar interfaces de usuario responsivas y accesibles.
+- **PostgreSQL/MySQL:** Base de datos utilizada para almacenar información de usuarios, registros de interacciones, pedidos y más.
+- **Docker:** Para el despliegue y gestión de contenedores, garantizando que el chatbot pueda ejecutarse en cualquier entorno de manera uniforme y eficiente.
+- **Redis:** Utilizado para gestionar sesiones y almacenamiento en caché, optimizando la velocidad de las interacciones del usuario.
 
-You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/projects/environment-variables) for this, but a `.env` file is all that is necessary.
+## Requisitos del Sistema
 
-> Note: You should not commit your `.env` file or it will expose secrets that will allow others to control access to your various OpenAI and authentication provider accounts.
+Para ejecutar Lazzar CHATBOT AI, asegúrate de tener instalados los siguientes componentes:
 
-1. Install Vercel CLI: `npm i -g vercel`
-2. Link local instance with Vercel and GitHub accounts (creates `.vercel` directory): `vercel link`
-3. Download your environment variables: `vercel env pull`
+- **Python 3.8 o superior**
+- **Django 3.0 o superior**
+- **PostgreSQL o MySQL**
+- **Redis**
+- **Docker (opcional, para despliegue en contenedores)**
 
-```bash
-pnpm install
-pnpm dev
-```
+### Instalación
 
-Your app template should now be running on [localhost:3000](http://localhost:3000/).
+Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 
-## Authors
-
-This library is created by [Vercel](https://vercel.com) and [Next.js](https://nextjs.org) team members, with contributions from:
-
-- Jared Palmer ([@jaredpalmer](https://twitter.com/jaredpalmer)) - [Vercel](https://vercel.com)
-- Shu Ding ([@shuding\_](https://twitter.com/shuding_)) - [Vercel](https://vercel.com)
-- shadcn ([@shadcn](https://twitter.com/shadcn)) - [Vercel](https://vercel.com)
+1. Clona el repositorio de Lazzar CHATBOT AI desde GitHub:
+   ```bash
+   git clone https://github.com/DISTinTheHouse/lazzar-chatbot-ai.git
