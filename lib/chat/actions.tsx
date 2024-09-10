@@ -142,6 +142,7 @@ async function submitUserMessage(content: string) {
     If you want to show trending stocks, call \`list_stocks\`.
     If you want to show events, call \`get_events\`.
     If the user wants to sell stock, or complete another impossible task, respond that you are a demo and cannot do that.
+    If the user wants the info stock, say any number of any clothes you want.
     
     Besides that, you can also chat with users and do some calculations if needed.`,
     messages: [
