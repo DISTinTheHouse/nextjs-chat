@@ -68,7 +68,7 @@ export function SidebarActions({
               <span className="sr-only">Delete</span>
             </Button>
           </TooltipTrigger>
-          <TooltipContent>Delete chat</TooltipContent>
+          <TooltipContent>Eliminar Chat</TooltipContent>
         </Tooltip>
       </div>
       <ChatShareDialog
@@ -81,15 +81,14 @@ export function SidebarActions({
       <AlertDialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
         <AlertDialogContent>
           <AlertDialogHeader>
-            <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+            <AlertDialogTitle>Estas seguro de eliminarlo?</AlertDialogTitle>
             <AlertDialogDescription>
-              This will permanently delete your chat message and remove your
-              data from our servers.
+              Esto eliminará permanentemente tu mensaje de chat y eliminará tus datos de nuestros servidores.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
             <AlertDialogCancel disabled={isRemovePending}>
-              Cancel
+              Cancelar
             </AlertDialogCancel>
             <AlertDialogAction
               disabled={isRemovePending}
@@ -115,7 +114,7 @@ export function SidebarActions({
               }}
             >
               {isRemovePending && <IconSpinner className="mr-2 animate-spin" />}
-              Delete
+              Eliminar
             </AlertDialogAction>
           </AlertDialogFooter>
         </AlertDialogContent>
