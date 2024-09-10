@@ -55,7 +55,7 @@ export default function LoginForm() {
               className="mb-3 mt-5 block text-xs font-medium text-zinc-400"
               htmlFor="password"
             >
-              Password
+              Contraseña
             </label>
             <div className="relative">
               <input
